@@ -389,11 +389,11 @@
         </div>
       </section>
       <hr>
-      <section>
-        <h2 class="text-uppercase text-center">Agendamento de Serviços</h2>
-        <div class="col-10 m-auto">
-          <div class="col-10">
-          <form class="row g-3" action="processa-agendamento.php" method="post">
+      <section id="agendamento">
+        <div id="formulario" class="col-4 m-auto">
+          <h3 class="text-uppercase text-center">Agendamento de Serviços</h3>
+        
+          <form class="row g-2" action="processa-agendamento.php" method="post">
 
               <label for="nome" class="form-label">Nome</label>
               <input type="text" class="form-control" id="nome" name="nome" required>
@@ -423,8 +423,6 @@
               <label for="mensagem" class="form-label">Mensagem Adicional:</label>
               <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
               <button type="submit">Agendar Serviço</button>
-              
-            </div>
               
             </form>
         </div>
