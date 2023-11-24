@@ -392,45 +392,44 @@
           <p class="col-7 m-auto text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est veniam tempora assumenda perspiciatis in aliquid fugiat totam vero! Atque quam distinctio inventore in expedita accusantium ab velit reprehenderit nulla libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum provident accusamus, tenetur quo ut officiis maxime repellat ad. Dolor delectus ab commodi aliquam ea obcaecati saepe esse facilis. Corporis, id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam recusandae perspiciatis nulla voluptate porro aliquid nisi? Nesciunt porro sed aut nihil cupiditate provident magnam, alias, similique exercitationem nostrum temporibus ea. facere eius earum, provident odit doloremque nulla omnis dolores alias dolore laboriosam, repellat iste. Est totam ipsa beatae facere deleniti ad?</p>
         </div>
       </section>
-      <hr>
       <section id="agendamento">
-        <div id="formulario" class="col-4 m-auto">
-          <h3 class="text-uppercase text-center">Agendamento de Serviços</h3>
-        
-          <form class="row g-2" action="processa-agendamento.php" method="post">
-
-              <label for="nome" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="nome" name="nome" required>
-            
-              <label for="veiculo" class="form-label">Veículo/ano</label>
-              <input type="text" class="form-control" id="veiculo" name="veiculo" required>
-            
-              <label for="telefone" class="form-label">Telefone:</label>
-              <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(99)99999-9999" required>
-            
-              <label for="data" class="form-label">Data do Serviço:</label>
-              <input type="date" class="form-control" id="data" name="data" required>
-              
-              <label for="servico" class="form-label">Tipo de Serviço:</label>
-              <select name="servico" id="servico" required>
-                <option value="reparo motor">Reparo Motor</option>
-                <option value="Manutencao Preventiva">Manutenção Preventiva</option>
-                <option value="Embreagem">Embreagem</option>
-                <option value="Suspensão">Suspensão</option>
-                <option value="Troca de Óleo">Troca de Óleo</option>
-                <option value="Revisão de Freios">Revisão de Freios</option>
-                <option value="Injeção Eletrônica">Injeção Eletrônica</option>
-                <option value="Outros">Outros</option>
-              </select>
-              
-              
-              <label for="mensagem" class="form-label">Mensagem Adicional:</label>
-              <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
-              <button type="submit">Agendar Serviço</button>
-              
+        <div id="formulario" class="col-3 ms-auto">
+            <h3 class="text-uppercase text-warning text-center">Agendamento de Serviços</h3>
+    
+            <form class="" action="processa-agendamento.php" method="post">
+    
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+    
+                <label for="veiculo" class="form-label">Veículo/ano</label>
+                <input type="text" class="form-control" id="veiculo" name="veiculo" required>
+    
+                <label for="telefone" class="form-label">Telefone:</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(99)99999-9999" required>
+    
+                <label for="data" class="form-label">Data do Serviço:</label>
+                <input type="date" class="form-control" id="data" name="data" required>
+    
+                <label for="servico" class="form-label">Tipo de Serviço:</label>
+                <select class="form-control" name="servico" id="servico" required>
+                    <option value="Outros">Outros</option>
+                    <option value="reparo motor">Reparo Motor</option>
+                    <option value="Manutencao Preventiva">Manutenção Preventiva</option>
+                    <option value="Embreagem">Embreagem</option>
+                    <option value="Suspensão">Suspensão</option>
+                    <option value="Troca de Óleo">Troca de Óleo</option>
+                    <option value="Revisão de Freios">Revisão de Freios</option>
+                    <option value="Injeção Eletrônica">Injeção Eletrônica</option>
+                </select>
+    
+                <label for="mensagem" class="form-label">Mensagem Adicional:</label>
+                <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
+                <button class="btn btn-warning" type="submit">Agendar Serviço</button>
+    
             </form>
         </div>
-      </section>
+    </section>
+    
     </main>
 
     <footer class="bg-dark text-white pt-5 pb-4">
