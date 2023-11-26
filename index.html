@@ -393,40 +393,63 @@
         </div>
       </section>
       <section id="agendamento">
-        <div id="formulario" class="col-3 ms-auto">
-            <h3 class="text-uppercase text-warning text-center">Agendamento de Serviços</h3>
-    
-            <form class="" action="processa-agendamento.php" method="post">
-    
-                <label for="nome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nome" name="nome" required>
-    
-                <label for="veiculo" class="form-label">Veículo/ano</label>
-                <input type="text" class="form-control" id="veiculo" name="veiculo" required>
-    
-                <label for="telefone" class="form-label">Telefone:</label>
-                <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(99)99999-9999" required>
-    
-                <label for="data" class="form-label">Data do Serviço:</label>
-                <input type="date" class="form-control" id="data" name="data" required>
-    
-                <label for="servico" class="form-label">Tipo de Serviço:</label>
-                <select class="form-control" name="servico" id="servico" required>
-                    <option value="Outros">Outros</option>
-                    <option value="reparo motor">Reparo Motor</option>
-                    <option value="Manutencao Preventiva">Manutenção Preventiva</option>
-                    <option value="Embreagem">Embreagem</option>
-                    <option value="Suspensão">Suspensão</option>
-                    <option value="Troca de Óleo">Troca de Óleo</option>
-                    <option value="Revisão de Freios">Revisão de Freios</option>
-                    <option value="Injeção Eletrônica">Injeção Eletrônica</option>
-                </select>
-    
-                <label for="mensagem" class="form-label">Mensagem Adicional:</label>
-                <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
-                <button class="btn btn-warning" type="submit">Agendar Serviço</button>
-    
-            </form>
+        <div class="fundo-banner">
+          <div id="fundo-form" class="container d-flex flex-direction-row justify-content-around">
+            <div id="text-form" class="col-xs-12 col-sm-6 col-md-7 col-lg-6">
+              <p class="titulo-padrao" style="margin-bottom: 30px;">CONHEÇA REVIZZI <br class="hidden-xs hidden-sm">AUTO CENTER</p>
+              <div class="texto-padrao">
+                <p>
+                  A Revizzi Auto Center nasceu em 2018. Nossa companhia se dedica à prestação de serviços de oficina mecânica e mecatrônica para veículos, focalizando na revisão, manutenção e reparo de automóveis tanto nacionais quanto importados. Nosso propósito é garantir a satisfação do cliente por meio de preços justos.
+                <br>
+                <br>
+                <strong>Nosso atendimento</strong>
+                <br>
+                  Personalizado com efi...
+                </p>
+              </div>
+              <a href="/empresa">
+                <div class="banner-saiba-mais-div">
+                  <span class="banner-saiba-mais">- SAIBA MAIS -</span>
+                </div>
+              </a>			
+            </div>
+            <div id="form" class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-4 col-lg-5">
+                <h3 class="text-uppercase text-warning text-center">Agendamento de Serviços</h3>
+        
+                <form class="" action="processa-agendamento.php" method="post">
+        
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+        
+                    <label for="veiculo" class="form-label">Veículo/ano</label>
+                    <input type="text" class="form-control" id="veiculo" name="veiculo" required>
+        
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(99)99999-9999" required>
+        
+                    <label for="data" class="form-label">Data do Serviço:</label>
+                    <input type="date" class="form-control" id="data" name="data" required>
+        
+                    <label for="servico" class="form-label">Tipo de Serviço:</label>
+                    <select class="form-control" name="servico" id="servico" required>
+                        <option value="Outros">Outros</option>
+                        <option value="reparo motor">Reparo Motor</option>
+                        <option value="Manutencao Preventiva">Manutenção Preventiva</option>
+                        <option value="Embreagem">Embreagem</option>
+                        <option value="Suspensão">Suspensão</option>
+                        <option value="Troca de Óleo">Troca de Óleo</option>
+                        <option value="Revisão de Freios">Revisão de Freios</option>
+                        <option value="Injeção Eletrônica">Injeção Eletrônica</option>
+                    </select>
+        
+                    <label for="mensagem" class="form-label">Mensagem Adicional:</label>
+                    <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
+                    <button class="btn btn-warning" type="submit">Agendar Serviço</button>
+        
+                </form>
+            </div>
+  
+          </div>
         </div>
     </section>
     

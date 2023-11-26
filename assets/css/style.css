@@ -2,17 +2,35 @@
     width: 100%;
 }
 
-#agendamento {
+.fundo-banner {
     background-image: url(../imagens/agendamento.jpg);
-    /* background-position: center; */
     background-size: cover;
-    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-/* #formulario {
+#fundo-form {
+    /* max-width: 600px; */
+    /* margin: 50px auto; */
+    background-color: #ffffffda;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* #form {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #ffffffda;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#text-form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffffda;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
