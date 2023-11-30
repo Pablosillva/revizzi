@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensagem = $_POST["mensagem"];
 
     // Número do WhatsApp (substitua pelo seu número)
-    $numero_whatsapp = "558388088865";
+    $numero_whatsapp = "558386066418";
 
     // Crie a mensagem do WhatsApp
     $mensagem_whatsapp = "Olá, sou $nome. Gostaria de agendar um serviço de $servico para $data. Minhas informações adicionais são: $mensagem";
