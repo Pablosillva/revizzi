@@ -46,6 +46,7 @@
           
           
     </header>
+    <br><br>
     <main>
       <!--    carrousel    -->
       <section>
@@ -397,58 +398,62 @@
       <section id="agendamento">
         <div class="fundo-banner">
           <div id="fundo-form" class="container d-flex flex-direction-row justify-content-around bg-gradient bg-dark bg-opacity-75 text-white">
-            <div id="text-form" class="col-xs-12 col-sm-6 col-md-7 col-lg-6">
-              <p class="titulo-padrao" style="margin-bottom: 30px;">AGENDE OS SERVIÇOS DO SEU CARRO ONLINE! <br class="hidden-xs hidden-sm">REVIZZI AUTO CENTER</p>
-              <div class="texto-padrao">
-                <p>
-                  Faça o agendamento do seu serviço pelo site e ganhe 15% de desconto em serviços apartir de 300 R$. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, cum optio, voluptatum deleniti laborum, voluptatibus repudiandae beatae quod eveniet accusantium adipisci consequuntur ipsam similique provident amet! Ea numquam quisquam neque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, illo laborum itaque illum soluta quia rerum amet nisi voluptatibus doloribus magnam ipsum vel libero repellat quod iure aliquid enim! Perspiciatis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia inventore, nisi nemo placeat quisquam ipsum, magnam ratione veniam quo ad dignissimos, eos fugit odit nulla laboriosam quasi sit ea eveniet?
-                <br>
-                <br>
-                <strong>Agende seu serviço!</strong>
-                <br>
-                  Agendamento 24H
-                </p>
-              </div>
-              <a href="/empresa">
-                <div class="banner-saiba-mais-div">
-                  <button class="btn btn-warning">SAIBA MAIS</button>
+            <div class="row">
+              <div id="text-form" class="col-xs-12 col-sm-6 col-md-7 col-lg-6">
+                <p class="titulo-padrao" style="margin-bottom: 30px;">AGENDE OS SERVIÇOS DO SEU CARRO ONLINE! <br class="hidden-xs hidden-sm">REVIZZI AUTO CENTER</p>
+                <div class="texto-padrao">
+                  <p>
+                    Faça o agendamento do seu serviço pelo site e ganhe 15% de desconto em serviços apartir de 300 R$. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, cum optio, voluptatum deleniti laborum, voluptatibus repudiandae beatae quod eveniet accusantium adipisci consequuntur ipsam similique provident amet! Ea numquam quisquam neque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, illo laborum itaque illum soluta quia rerum amet nisi voluptatibus doloribus magnam ipsum vel libero repellat quod iure aliquid enim! Perspiciatis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia inventore, nisi nemo placeat quisquam ipsum, magnam ratione veniam quo ad dignissimos, eos fugit odit nulla laboriosam quasi sit ea eveniet?
+                  <br>
+                  <br>
+                  <strong>Agende seu serviço!</strong>
+                  <br>
+                    Agendamento 24H
+                  </p>
                 </div>
-              </a>			
-            </div>
-            <div id="form" class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-4 col-lg-5">
-                <h3 class="text-uppercase text-warning text-center">Agendamento de Serviços</h3>
-        
-                <form class="" action="processa-agendamento.php" method="post">
-        
-                    <label for="nome" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="nome" name="nome" required>
-        
-                    <label for="veiculo" class="form-label">Veículo/ano</label>
-                    <input type="text" class="form-control" id="veiculo" name="veiculo" required>
-        
-                    <label for="telefone" class="form-label">Telefone:</label>
-                    <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(99)99999-9999" required>
-        
-                    <label for="data" class="form-label">Data do Serviço:</label>
-                    <input type="date" class="form-control" id="data" name="data" required>
-        
-                    <label for="servico" class="form-label">Tipo de Serviço:</label>
-                    <select class="form-control" name="servico" id="servico" required>
-                        <option value="Outros">Outros</option>
-                        <option value="reparo motor">Reparo Motor</option>
-                        <option value="Manutencao Preventiva">Manutenção Preventiva</option>
-                        <option value="Embreagem">Embreagem</option>
-                        <option value="Suspensão">Suspensão</option>
-                        <option value="Troca de Óleo">Troca de Óleo</option>
-                        <option value="Revisão de Freios">Revisão de Freios</option>
-                        <option value="Injeção Eletrônica">Injeção Eletrônica</option>
-                    </select>
-        
-                    <label for="mensagem" class="form-label">Mensagem Adicional:</label>
-                    <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
-                    <button class="btn btn-warning" type="submit">Agendar Serviço</button>
-        
-                </form>
+                <a href="/empresa">
+                  <div class="banner-saiba-mais-div">
+                    <button class="btn btn-warning">SAIBA MAIS</button>
+                    <br><br>
+                  </div>
+                </a>			
+              </div>
+              <div id="form" class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-4 col-lg-5">
+                  <h3 class="text-uppercase text-warning text-center">Agendamento de Serviços</h3>
+          
+                  <form class="" action="processa-agendamento.php" method="post">
+          
+                      <label for="nome" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="nome" name="nome" required>
+          
+                      <label for="veiculo" class="form-label">Veículo/ano</label>
+                      <input type="text" class="form-control" id="veiculo" name="veiculo" required>
+          
+                      <label for="telefone" class="form-label">Telefone:</label>
+                      <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(99)99999-9999" required>
+          
+                      <label for="data" class="form-label">Data do Serviço:</label>
+                      <input type="date" class="form-control" id="data" name="data" required>
+          
+                      <label for="servico" class="form-label">Tipo de Serviço:</label>
+                      <select class="form-control" name="servico" id="servico" required>
+                          <option value="Outros">Outros</option>
+                          <option value="reparo motor">Reparo Motor</option>
+                          <option value="Manutencao Preventiva">Manutenção Preventiva</option>
+                          <option value="Embreagem">Embreagem</option>
+                          <option value="Suspensão">Suspensão</option>
+                          <option value="Troca de Óleo">Troca de Óleo</option>
+                          <option value="Revisão de Freios">Revisão de Freios</option>
+                          <option value="Injeção Eletrônica">Injeção Eletrônica</option>
+                      </select>
+          
+                      <label for="mensagem" class="form-label">Mensagem Adicional:</label>
+                      <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
+                      <button class="btn btn-warning" type="submit">Agendar Serviço</button>
+          
+                  </form>
+              </div>
+
             </div>
   
           </div>
@@ -480,7 +485,7 @@
             <a href="#" class="text-white" style="text-decoration: none;">Escapamento</a>
             <a href="#" class="text-white" style="text-decoration: none;">Escapamento</a>
           </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 d-flex flex-column align-items-center">
             <h4 class="text-start text-uppercase mb-4 font-weight-bold text-warning">Contato</h4>
             <p class="text-start"><i class="bi bi-house mr-3"></i> João Pessoa, PB</p>
             <p class="text-start"><i class="bi bi-envelope mr-3"></i> revizziautocenter@hotmail.com</p>
