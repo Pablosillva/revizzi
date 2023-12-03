@@ -14,3 +14,11 @@
     border-radius: 8px;
     
 }
+.sobre {
+    background-image: url(../imagens/fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+    opacity: 0.9;
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
