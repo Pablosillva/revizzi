@@ -1,3 +1,42 @@
+#scb-wrapper.scb-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2147483647;
+    width: 100%;
+}
+
+#scb-wrapper {
+    padding: 8px 10px;
+    background-color: rgb(8, 20, 37);
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 1px 6px 3px #ccc;
+}
+
+#scb-wrapper h2 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font: normal normal bold 15px/1 sans-serif;
+    color: #ffffff;
+}
+
+#scb-wrapper h2, #scb-wrapper ul, #scb-wrapper li, #scb-wrapper a, #scb-wrapper a span {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#scb-wrapper ul, #scb-wrapper li, #scb-wrapper a, #scb-wrapper a span {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 0.96em;
+    line-height: 1;
+}
+
 .card img {
     width: 100%;
 }
@@ -7,6 +46,11 @@
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+#servicos {
+    background-image: url(../imagens/fundo-servicos.jpg);
+    background-size: cover;
 }
 
 #fundo-form {
