@@ -1,26 +1,47 @@
 # Revizzi Auto Center
 
-Sistema completo para gestão de blog de uma oficina mecânica.
+Sistema completo de blog para oficina mecânica.
 
 ## 📁 Estrutura
 
-- `revizzi/` — Frontend React + TypeScript + Tailwind
-- `admin-oficina-backend/` — Backend Express + TypeScript + Prisma + PostgreSQL
+- `frontend/` — React + TypeScript + Vite + Tailwind CSS
+- `backend/` — Node.js + Express + TypeScript + Prisma + PostgreSQL
 
 ## 🛠️ Stack
 
 **Frontend**: React, TypeScript, Vite, Tailwind CSS
 **Backend**: Node.js, Express, TypeScript, Prisma 7, PostgreSQL
-**Autenticação**: JWT + bcrypt
+**Auth**: JWT + bcrypt
 
 ## 🚀 Como rodar
 
 ### Backend
 
 ```bash
-cd admin-oficina-backend
+cd backend
 npm install
 docker compose up -d
 npm run prisma:migrate
 npm run create-admin
 npm run dev
+
+
+Frontend
+bash
+cd frontend
+npm install
+npm run dev
+👤 Autor
+Pablo Silva
+
+text
+
+---
+
+## ✅ Passo 5 — Inicialize o Git na raiz
+
+```bash
+git init
+
+Saída esperada:
+Initialized empty Git repository in C:/Users/Pablo/Revizzi-auto-center/.git/

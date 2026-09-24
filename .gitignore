@@ -42,3 +42,17 @@ Desktop.ini
 
 # Coverage / testes
 coverage/
+
+# Ferramentas de IA do Prisma (não devem ir para o Git)
+.agents/
+.claude/
+.cursor/
+.devin/
+**/.agents/
+**/.claude/
+**/.cursor/
+**/.devin/
+
+# Playwright / testes E2E (caso apareça)
+**/playwright-report/
+**/test-results/
