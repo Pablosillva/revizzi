@@ -1,0 +1,44 @@
+# Dependências (todas as pastas)
+node_modules/
+**/node_modules/
+
+# Build
+dist/
+build/
+**/dist/
+**/build/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cliente Prisma gerado
+**/src/generated/
+
+# Cache
+.cache/
+.vite/
+**/.vite/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Coverage / testes
+coverage/

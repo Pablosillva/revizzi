@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: revizzi_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: revizzi_blog
+    ports:
+      - "5433:5432"       # ← 5433 no Windows, 5432 no container
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
